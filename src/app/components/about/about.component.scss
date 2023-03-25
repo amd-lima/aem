@@ -1,0 +1,24 @@
+mat-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.example-card {
+  width: 90vw;
+  height: 60vh;
+  margin-top: 0.5em;
+  margin-bottom: 3.9em;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+h2,h3, mat-card-title{
+  color: #4d5b7c;
+  font-family: Epilogue,sans-serif;
+}
+h2, mat-card-title{
+  font-size: 24px;
+  font-weight: bold;
+}
