@@ -10,19 +10,11 @@
 iframe{
   margin: 3px;
 }
-h2,h3, mat-card-title{
-  color: #4d5b7c;
-  font-family: Epilogue,sans-serif;
-}
-h2, mat-card-title{
-  font-size: 24px;
-  font-weight: bold;
-}
 
 @media(min-width: 800px){
   .example-card {
     max-width: 80vw;
-    max-height: 70vh;
+    max-height: 60vh;
     margin-top: 0.5em;
   }
   .content{
